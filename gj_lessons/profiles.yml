@@ -23,3 +23,5 @@ answers: # this needs to match the profile: in your dbt_project.yml file
       timeout_seconds: 300
       location: US
       priority: interactive
+
+# testing the new branch merging
