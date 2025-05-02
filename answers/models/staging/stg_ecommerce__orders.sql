@@ -4,6 +4,7 @@ WITH source AS (
 	FROM {{ source('thelook_ecommerce', 'orders') }}
 )
 
+
 SELECT
 	-- IDs
 	order_id,
@@ -24,3 +25,4 @@ SELECT
 	#}
 
 FROM source
+
